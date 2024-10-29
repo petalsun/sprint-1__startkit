@@ -1,0 +1,4 @@
+.flex__column {
+  display: flex;
+  align-items: center;
+}
