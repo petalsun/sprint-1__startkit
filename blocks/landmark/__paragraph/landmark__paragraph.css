@@ -1,0 +1,14 @@
+.landmark__paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.landmark__paragraph + .landmark__paragraph {
+  margin-top: 26px;
+}
+
+@media (max-width: 1023px) {
+  .landmark__paragraph {
+    font-size: 16px;
+  }
+}

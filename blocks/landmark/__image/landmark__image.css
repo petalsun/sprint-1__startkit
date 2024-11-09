@@ -1,0 +1,25 @@
+.landmark__image {
+  display: block;
+  width: 460px;
+  aspect-ratio: 1;
+}
+
+@media (max-width: 1279px) {
+  .landmark__image {
+    width: 440px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .landmark__image {
+    width: 340px;
+  }
+}
+
+@media (max-width: 767px) {
+  .landmark__image {
+    width: 320px;
+    position: relative;
+    left: -16px;
+  }
+}

@@ -1,0 +1,12 @@
+.landmark__url {
+  display: inline-block;
+  margin: 12px 0 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  transition: opacity 0.2s;
+}
+
+.landmark__url:hover {
+  opacity: 0.8;
+}

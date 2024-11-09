@@ -1,0 +1,9 @@
+.lead {
+  padding: 56px 0 92px;
+}
+
+@media (max-width: 767px) {
+  .lead {
+    padding: 48px 0 64px;
+  }
+}

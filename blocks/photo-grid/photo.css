@@ -1,0 +1,9 @@
+.photo {
+  padding: 92px 0;
+}
+
+@media (max-width: 767px) {
+  .photo {
+    padding: 64px 0;
+  }
+}

@@ -1,0 +1,71 @@
+@import "../vendor/normalize.css";
+@import "../fonts/fonts.css";
+
+/* root import */
+
+@import "../blocks/root/root.css";
+
+/* container import */
+
+@import "../blocks/container/container.css";
+@import "../blocks/container/_size/container_small.css";
+@import "../blocks/container/_size/container_large.css";
+
+/* header import */
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__container/header__container.css";
+@import "../blocks/header/__language/header__language.css";
+@import "../blocks/header/__language/_active/header__language_active.css";
+@import "../blocks/header/__languages/header__languages.css";
+@import "../blocks/header/__logo/header__logo.css";
+
+/* welcome import */
+
+@import "../blocks/lead/lead.css";
+@import "../blocks/lead/__container/lead__container.css";
+@import "../blocks/lead/__image/lead__image.css";
+@import "../blocks/lead/__image-text/lead__image-text.css";
+@import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__title/lead__title.css";
+
+/* statistics import */
+
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__text/intro__text.css";
+@import "../blocks/intro/__list/intro__list.css";
+@import "../blocks/intro/__list-text/intro__list-text.css";
+@import "../blocks/intro/__list-text-span/intro__list-text-span.css";
+
+/* gallery import */
+
+@import "../blocks/photo-grid/photo.css";
+@import "../blocks/photo-grid/__grid/photo__grid.css";
+
+/* landmark import */
+
+@import "../blocks/landmark/landmark.css";
+@import "../blocks/landmark/__image/landmark__image.css";
+@import "../blocks/landmark/__link/landmark__link.css";
+@import "../blocks/landmark/__paragraph/landmark__paragraph.css";
+@import "../blocks/landmark/__title/landmark__title.css";
+@import "../blocks/landmark/__url/landmark__url.css";
+@import "../blocks/landmark/__url-text/landmark__url-text.css";
+
+/* cover import */
+
+@import "../blocks/cover/cover.css";
+@import "../blocks/cover/__container/cover__container.css";
+@import "../blocks/cover/__background/cover__background.css";
+@import "../blocks/cover/__main/cover__main.css";
+@import "../blocks/cover/__subtitle/cover__subtitle.css";
+@import "../blocks/cover/__title/cover__title.css";
+@import "../blocks/cover/__text/cover__text.css";
+
+/* footer import */
+
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__container/footer__container.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__links/footer__links.css";

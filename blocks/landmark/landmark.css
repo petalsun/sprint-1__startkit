@@ -1,0 +1,26 @@
+.landmark {
+  display: grid;
+  grid-template: max-content 1fr / min-content 1fr;
+  gap: 48px 40px;
+}
+
+.landmark + .landmark {
+  margin-top: 80px;
+}
+
+@media (max-width: 1023px) {
+  .landmark + .landmark {
+    margin-top: 73px;
+  }
+}
+
+@media (max-width: 767px) {
+  .landmark {
+    grid-template-columns: 288px;
+    row-gap: 32px;
+  }
+
+  .landmark + .landmark {
+    margin-top: 50px;
+  }
+}

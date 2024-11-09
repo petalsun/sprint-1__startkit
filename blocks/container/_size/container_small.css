@@ -1,0 +1,21 @@
+.container_small {
+  max-width: 984px;
+}
+
+@media (max-width: 1279px) {
+  .container_small {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container_small {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container_small {
+    max-width: 288px;
+  }
+}
